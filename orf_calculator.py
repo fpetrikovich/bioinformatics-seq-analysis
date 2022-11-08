@@ -70,7 +70,8 @@ def handle_new_open_reading_frame(orf_id, nucleotides, start_offset, is_reverse,
     start = start_offset
     end = math.floor((len(nucleotides) - start_offset)/codon_size) * codon_size + start_offset
     # Get the possible protein from analyzing the codons
-    final_nucleotides = find_start_stop_codons(nucleotides[start:end])
+    # final_nucleotides = find_start_stop_codons(nucleotides[start:end])
+    final_nucleotides = nucleotides[start:end]
     # translate sequence to protein for a given ORF
     protein_sequence = translate_sequence_to_protein(final_nucleotides, cds=False)
     # Save the translation to compare with the CDS
