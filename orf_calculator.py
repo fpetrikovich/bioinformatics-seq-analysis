@@ -7,7 +7,7 @@ from bio_utils import translate_sequence_to_protein, transcribe_dna, check_if_va
 codon_size = 3
 orf_count = 6
 
-def run_exercise_1(genbank_file, fasta_nuc_output_file, fasta_prot_output_file):
+def run_orf_calculator(genbank_file, fasta_nuc_output_file, fasta_prot_output_file):
 
     nucleotide_handle = open(fasta_nuc_output_file, "w")
     proteins_handle = open(fasta_prot_output_file, "w")

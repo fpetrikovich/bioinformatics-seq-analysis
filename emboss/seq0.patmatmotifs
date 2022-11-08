@@ -1,0 +1,223 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Tue  8 Nov 2022 18:55:22
+# Commandline: patmatmotifs
+#    -sequence orf2_protein.fasta
+#    -full
+# Report_format: dbmotif
+# Report_file: seq0.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: seq0     from: 1   to: 1253
+# HitCount: 4
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 8
+Start = position 962 of sequence
+End = position 969 of sequence
+
+Motif = ATP_GTP_A
+
+CIYLNGEPGSGKSSFFDL
+     |      |
+   962      969
+
+Length = 8
+Start = position 1218 of sequence
+End = position 1225 of sequence
+
+Motif = TYR_PHOSPHO_SITE_2
+
+LCAEFRKAFEKHYRPYDK
+     |      |
+  1218      1225
+
+Length = 8
+Start = position 1098 of sequence
+End = position 1105 of sequence
+
+Motif = TYR_PHOSPHO_SITE_2
+
+HAKNKKYPQEKAYFEDLT
+     |      |
+  1098      1105
+
+Length = 8
+Start = position 373 of sequence
+End = position 380 of sequence
+
+Motif = TYR_PHOSPHO_SITE_2
+
+GDVLIRYLSESNYFNFDY
+     |      |
+   373      380
+
+
+#---------------------------------------
+#
+# Motif: ATP_GTP_A
+# Count: 1
+# 
+# *****************************************
+# * ATP/GTP-binding site motif A (P-loop) *
+# *****************************************
+# 
+# From sequence comparisons and crystallographic data analysis it has been shown
+# [1,2,3,4,5,6] that an appreciable proportion of proteins that  bind ATP or GTP
+# share a number of more or less conserved sequence motifs.   The best conserved
+# of these  motifs  is  a  glycine-rich region, which typically forms a flexible
+# loop between a beta-strand and an alpha-helix. This loop interacts with one of
+# the phosphate  groups  of  the  nucleotide.   This sequence motif is generally
+# referred to as the 'A' consensus sequence [1] or the 'P-loop' [5].
+# 
+# There are numerous ATP- or GTP-binding proteins  in which the P-loop is found.
+# We list below  a number of protein  families  for  which  the relevance of the
+# presence of such motif has been noted:
+# 
+#  - ATP synthase alpha and beta subunits (see <PDOC00137>).
+#  - Myosin heavy chains.
+#  - Kinesin heavy chains and kinesin-like proteins (see <PDOC00343>).
+#  - Dynamins and dynamin-like proteins (see <PDOC00362>).
+#  - Guanylate kinase (see <PDOC00670>).
+#  - Thymidine kinase (see <PDOC00524>).
+#  - Thymidylate kinase (see <PDOC01034>).
+#  - Shikimate kinase (see <PDOC00868>).
+#  - Nitrogenase iron protein family (nifH/chlL) (see <PDOC00580>).
+#  - ATP-binding proteins involved  in 'active transport' (ABC transporters) [7]
+#    (see <PDOC00185>).
+#  - DNA and RNA helicases [8,9,10].
+#  - GTP-binding elongation factors (EF-Tu, EF-1alpha, EF-G, EF-2, etc.).
+#  - Ras family of GTP-binding proteins (Ras, Rho, Rab, Ral, Ypt1, SEC4, etc.).
+#  - Nuclear protein ran (see <PDOC00859>).
+#  - ADP-ribosylation factors family (see <PDOC00781>).
+#  - Bacterial dnaA protein (see <PDOC00771>).
+#  - Bacterial recA protein (see <PDOC00131>).
+#  - Bacterial recF protein (see <PDOC00539>).
+#  - Guanine nucleotide-binding proteins alpha subunits (Gi, Gs, Gt, G0, etc.).
+#  - DNA mismatch repair proteins mutS family (See <PDOC00388>).
+#  - Bacterial type II secretion system protein E (see <PDOC00567>).
+# 
+# Not all ATP- or GTP-binding proteins are picked-up by this motif.  A number of
+# proteins escape detection because the structure   of their ATP-binding site is
+# completely different from that of the P-loop.  Examples  of  such proteins are
+# the E1-E2 ATPases or  the  glycolytic kinases.   In  other ATP- or GTP-binding
+# proteins the flexible loop exists  in a  slightly different form; this is  the
+# case for tubulins or protein kinases.  A special mention must  be reserved for
+# adenylate  kinase,  in  which  there  is a  single  deviation  from the P-loop
+# pattern: in the last position Gly is found instead of Ser or Thr.
+# 
+# -Consensus pattern: [AG]-x(4)-G-K-[ST]
+# -Sequences known to belong to this class detected by the pattern: a majority.
+# -Other sequence(s) detected in Swiss-Prot: in addition to the proteins  listed
+#  above,  the 'A' motif is also  found in a number  of other proteins.  Most of
+#  these proteins  probably  bind  a nucleotide, but others are definitively not
+#  ATP- or GTP-binding (as for example  chymotrypsin,  or  human  ferritin light
+#  chain).
+# 
+# -Expert(s) to contact by email:
+#            Koonin E.V.; koonin@ncbi.nlm.nih.gov
+# 
+# -Last update: July 1999 / Text revised.
+# 
+# [ 1] Walker J.E., Saraste M., Runswick M.J., Gay N.J.
+#      "Distantly related sequences in the alpha- and beta-subunits of ATP
+#      synthase, myosin, kinases and other ATP-requiring enzymes and a common
+#      nucleotide binding fold."
+#      EMBO J. 1:945-951(1982).
+#      PubMed=6329717
+# [ 2] Moller W., Amons R.
+#      "Phosphate-binding sequences in nucleotide-binding proteins."
+#      FEBS Lett. 186:1-7(1985).
+#      PubMed=2989003
+# [ 3] Fry D.C., Kuby S.A., Mildvan A.S.
+#      "ATP-binding site of adenylate kinase: mechanistic implications of its
+#      homology with ras-encoded p21, F1-ATPase, and other nucleotide-binding
+#      proteins."
+#      Proc. Natl. Acad. Sci. U.S.A. 83:907-911(1986).
+#      PubMed=2869483
+# [ 4] Dever T.E., Glynias M.J., Merrick W.C.
+#      "GTP-binding domain: three consensus sequence elements with distinct
+#      spacing."
+#      Proc. Natl. Acad. Sci. U.S.A. 84:1814-1818(1987).
+#      PubMed=3104905
+# [ 5] Saraste M., Sibbald P.R., Wittinghofer A.
+#      "The P-loop -- a common motif in ATP- and GTP-binding proteins."
+#      Trends Biochem. Sci. 15:430-434(1990).
+#      PubMed=2126155
+# [ 6] Koonin E.V.
+#      "A superfamily of ATPases with diverse functions containing either
+#      classical or deviant ATP-binding motif."
+#      J. Mol. Biol. 229:1165-1174(1993).
+#      PubMed=8445645
+# [ 7] Higgins C.F., Hyde S.C., Mimmack M.M., Gileadi U., Gill D.R.,
+#      Gallagher M.P.
+#      "Binding protein-dependent transport systems."
+#      J. Bioenerg. Biomembr. 22:571-592(1990).
+#      PubMed=2229036
+# [ 8] Hodgman T.C.
+#      "A new superfamily of replicative proteins."
+#      Nature 333:22-23(1988) and Nature 333:578-578(1988) (Errata).
+#      PubMed=3362205; DOI=10.1038/333022b0
+# [ 9] Linder P., Lasko P.F., Ashburner M., Leroy P., Nielsen P.J., Nishi K.,
+#      Schnier J., Slonimski P.P.
+#      "Birth of the D-E-A-D box."
+#      Nature 337:121-122(1989).
+#      PubMed=2563148; DOI=10.1038/337121a0
+# [10] Gorbalenya A.E., Koonin E.V., Donchenko A.P., Blinov V.M.
+#      Nucleic Acids Res. 17:4713-4730(1989).
+# 
+# ***************
+# 
+# Motif: TYR_PHOSPHO_SITE_2
+# Count: 3
+# 
+# *****************************************
+# * Tyrosine kinase phosphorylation sites *
+# *****************************************
+# 
+# Substrates of tyrosine protein kinases are generally characterized by a lysine
+# or an arginine seven residues  to  the N-terminal side  of  the phosphorylated
+# tyrosine.  An acidic residue (Asp  or Glu) is often  found at either  three or
+# four residues to  the N-terminal side  of  the tyrosine  [1,2,3].  There are a
+# number of exceptions to  this rule such as the  tyrosine phosphorylation sites
+# of enolase and lipocortin II.
+# 
+# We developed  two  signature  patterns for the tyrosine kinase phosphorylation
+# sites. The  first  pattern  is  directed  against  the  sites where the acidic
+# residue (Asp  or Glu) is found at three residues to the N-terminal side of the
+# tyrosine, and the second one against the site where it is at four.
+# 
+# -Consensus pattern: [RK]-x(2)-[DE]-x(3)-Y
+#                     [Y is the phosphorylation site]
+# 
+# -Consensus pattern: [RK]-x(3)-[DE]-x(2)-Y
+#                     [Y is the phosphorylation site]
+# 
+# -Last update: March 2019 / Text and pattern revised; pattern added.
+# 
+# [ 1] Patschinsky T., Hunter T., Esch F.S., Cooper J.A., Sefton B.M.
+#      "Analysis of the sequence of amino acids surrounding sites of tyrosine
+#      phosphorylation."
+#      Proc. Natl. Acad. Sci. U.S.A. 79:973-977(1982).
+#      PubMed=6280176
+# [ 2] Hunter T.
+#      "Synthetic peptide substrates for a tyrosine protein kinase."
+#      J. Biol. Chem. 257:4843-4848(1982).
+#      PubMed=6279650
+# [ 3] Cooper J.A., Esch F.S., Taylor S.S., Hunter T.
+#      "Phosphorylation sites in enolase and lactate dehydrogenase utilized
+#      by tyrosine protein kinases in vivo and in vitro."
+#      J. Biol. Chem. 259:7835-7841(1984).
+#      PubMed=6330085
+# 
+# ***************
+# 
+#
+#---------------------------------------

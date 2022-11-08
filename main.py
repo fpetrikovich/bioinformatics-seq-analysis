@@ -1,7 +1,7 @@
 import argparse
 import time
 
-from orf_calculator import run_exercise_1
+from orf_calculator import run_orf_calculator
 from file_helper import generate_output_path
 from constants import ORFS_FILE_SUFFIX, FASTA_EXTENSION
 
@@ -46,7 +46,8 @@ def main():
         if item == 1:
             nucleotide_file = output_file + '_nucleotides' + FASTA_EXTENSION
             proteins_file = output_file + ORFS_FILE_SUFFIX + FASTA_EXTENSION
-            run_exercise_1(input_file, nucleotide_file, proteins_file)
+            run_orf_calculator("sequences/" + input_file, nucleotide_file, proteins_file)
+    
 
     except Exception as e:
         print("[ERROR] Unknown error when running the exercise.")

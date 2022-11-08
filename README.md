@@ -21,3 +21,13 @@ pip install -r requirements.txt
 ```
 
 ### Ejemplos de Llamados
+
+Calculo de ORF:
+```
+python main.py -e 1 -gb sequences/gb_unknown_seq.gb
+```
+Analisis del motif:
+```
+cd emboss
+patmatmotifs -sequence orf2_protein.fasta -full
+```
