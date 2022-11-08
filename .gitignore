@@ -129,3 +129,4 @@ env.bak/
 venv.bak/
 
 # Propio
+output/*

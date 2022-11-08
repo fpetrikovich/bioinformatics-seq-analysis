@@ -3,7 +3,7 @@ import time
 
 from orf_calculator import run_exercise_1
 from file_helper import generate_output_path
-from constants import ORFS_FILE_SUFFIX, FASTA_EXTENSION, CORRECT_ORF_FILE_SUFFIX
+from constants import ORFS_FILE_SUFFIX, FASTA_EXTENSION
 
 def main():
     # Get the current time for the output files
